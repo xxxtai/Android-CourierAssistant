@@ -33,7 +33,7 @@
 
         <TextView
             android:id="@+id/address"
-            android:textSize="26sp"
+            android:textSize="28sp"
             android:layout_height="65dp"
             android:layout_width="match_parent"
             android:layout_gravity="center"
@@ -42,12 +42,17 @@
     </LinearLayout>
 
 
-    <ImageView
+    <TextView
         android:id="@+id/arrow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@anim/arrow_anim"
+        android:gravity="top|center_horizontal"
+        android:textSize = "27sp"
+        android:textColor="#FFD700"
+        android:textStyle="bold"
+        android:background="@drawable/arrow_text"
+
         />
 
 </LinearLayout>

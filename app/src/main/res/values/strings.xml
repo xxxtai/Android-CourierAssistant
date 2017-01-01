@@ -1,3 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">YSD</string>
+
+<string name="app_name">YSD</string>
+<string name="sdk_name">Baidu Navigation SDK Demo</string>
+<string-array name="sdkapi_items">
+    <item>关键字搜索</item>
+    <item>周边搜索</item>
+    <item>手机语音识别</item>
+    <item>外部语音流识别</item>
+    <item>TTS</item>
+    <item>反GEO</item>
+    <item>线路规划demo1</item>
+    <item>线路规划demo2</item>
+    <item>离线数据管理</item>
+    <item>自定义图层</item>
+</string-array>
+<string name="search_start">搜索</string><string name="start_navi">开始导航</string>
+<string name="search_tips">离线检索需要使用"导航离线数据下载"demo下载数据之后才能正常使用！检索范围固定为广东省-深圳市，其他城市请修改demo源代码。</string>
+<string name="antigeo_tips">离线反geo需要使用"导航离线数据下载"demo下载数据之后才能正常使用！</string>
+<string name="asr_tips">语音识别需要使用"导航离线数据下载"demo下载广东数据之后才能正常使用！其他城市请修改demo源代码。</string>
+<string name="suggest_start">提示</string>
+<string name="search_hint">请输入关键字</string>
+<string name="record_recording">\u2026正在录音\u2026</string>
+<string name="record_recognizing">\u2026正在识别\u2026</string>
+<string name="voiceinput">外部语音流识别</string>
+<string name="voicenormal">手机语音流识别</string>
+<string name="keyword_search">关键字搜索</string>
+<string name="space_search">周边搜索</string>
+<string name="search_result">搜索结果</string>
+<string name="search_empty">识别结果为空</string>
+<string name="search_fail">识别无效</string>
+<string name="record_start">点击开启</string>
+
+<!-- 离线数据管理 -->
+<string name="title_route_guide_demo">1. GPS导航(RouteGuideDemo)</string>
+<string name="title_route_plan_demo">2. 路线规划(RoutePlanDemo)</string>
+<string name="title_cruiser">3. 电子狗(CruiserDemo)</string>
+<string name="title_layer">4. 自定义地图图层(MapLayerDemo)</string>
+<string name="title_offline_data">5. 导航离线数据下载(DownloadDemo)</string>
+<string name="title_keyword_search">6. POI搜索-关键字(KeySearchDemo)</string>
+<string name="title_nearby">7. POI搜索-分类(CatalogSearchDemo)</string>
+<string name="title_degeo">8. 反GEO(ReverseGeoDemo)</string>
+<string name="title_tts">9. TTS-Text To Speech(TTSDemo)</string>
+<string name="title_asr">10. 语音识别(VoiceDemo)</string>
+<string name="title_asr_input">11. 外部语音识别(VoiceInputDemo)</string>
+<string name="title_key_verify_demo">12. 密钥验证(KeyVerifyDemo)</string>
+<string name="title_charset_change_demo">13. 简体繁体转换(CharsetChangeDemo)</string>
+<string name="online">在线</string>
+<string name="offline">离线</string>
+
+<!-- 繁体简体切换 -->
+<string name="change_to_simplified">地图切换为简体</string>
+<string name="change_to_traditional">地图切换为繁体</string>
+<string name="change_to_simplified_tips">已切换为简体，请在地图图层页看效果</string>
+<string name="change_to_traditional_tips">已切换为繁体，请在地图图层页看效果</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

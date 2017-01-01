@@ -5,11 +5,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
     <TextView
-        android:id="@+id/address"
-        android:textSize="26sp"
+        android:id="@+id/mylocation"
+        android:textSize="30sp"
         android:layout_height="85dp"
         android:layout_width="match_parent"
         android:layout_gravity="center"
-        android:gravity="center_vertical" />
+        android:gravity="center" />
 
 </LinearLayout>

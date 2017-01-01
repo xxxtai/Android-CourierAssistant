@@ -23,7 +23,8 @@
                 android:layout_toRightOf="@+id/iv_login"
                 android:gravity="center"
                 android:textColor="#ffffff"
-                android:textSize="22sp"
+                android:textSize="25sp"
+                android:text="派送助手"
                 android:layout_centerInParent="true"/>
 
 
@@ -35,7 +36,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
                 android:scaleType="centerInside"
-                android:src= "@drawable/login"
+                android:src="@drawable/login"
                 />
             <ImageView
                 android:id="@+id/iv_menu"
@@ -51,18 +52,21 @@
         </RelativeLayout>
 
 
-        <ListView
+
+        <com.exploit.ysd.view.SwipeListView
             android:id="@+id/listView"
-            android:layout_width="match_parent"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/common_title"
-            android:layout_above="@+id/common_bottom"/>
+            android:layout_above="@+id/common_bottom">
+
+        </com.exploit.ysd.view.SwipeListView>
 
 
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="51dip"
-            android:background="#DBDBDB"
+            android:background="#D1D1D1"
             android:id="@+id/common_bottom"
             android:layout_alignParentBottom="true">
             <ImageButton
@@ -71,15 +75,15 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal|top"
                 android:scaleType="centerInside"
-                android:background="#DBDBDB"
+                android:background="#D1D1D1"
                 android:src="@drawable/image_view_pressed"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:gravity="center_horizontal|bottom"
-                android:background="#DBDBDB"
-                android:text="开始配送"
+                android:background="#D1D1D1"
+                android:text="开始派送"
                 android:textColor="#575757"
                 android:textSize="11dp"
                 style="@style/AppTheme" />

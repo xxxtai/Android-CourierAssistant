@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="55dip"
+            android:background="#6495ED"
+            android:id="@+id/common_title">
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_toLeftOf="@+id/iv_menu"
+                android:layout_toRightOf="@+id/iv_login"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:text="手动添加"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/manual_back"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="8dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/start_back"
+                />
+
+            <ImageView
+                android:id="@+id/confirm_btn"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/confirm"/>
+        </RelativeLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/common_title"
+            android:orientation="vertical">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="电话："
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp">
+                </TextView>
+
+                <AutoCompleteTextView
+                    android:id="@+id/phoneNumEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="24sp"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:ems="10">
+                </AutoCompleteTextView>
+
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="地址："
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="20sp">
+                </TextView>
+                <AutoCompleteTextView
+                    android:id="@+id/addressEdit"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:textSize="21sp"
+                    android:singleLine="true"
+                    android:layout_gravity="center"
+                    android:ems="10">
+                </AutoCompleteTextView>
+
+
+            </LinearLayout>
+
+            <fragment
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                class="com.baidu.mapapi.map.SupportMapFragment" />
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
