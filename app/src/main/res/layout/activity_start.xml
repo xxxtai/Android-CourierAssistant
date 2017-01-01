@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="55dip"
+            android:background="#1874CD"
+            android:id="@+id/common_title">
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:layout_toLeftOf="@+id/iv_menu"
+                android:layout_toRightOf="@+id/iv_login"
+                android:gravity="center"
+                android:textColor="#FFD700"
+                android:textSize="24sp"
+                android:layout_centerInParent="true"/>
+
+            <ImageView
+                android:id="@+id/iv_login"
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"
+                />
+
+            <ImageView
+                android:id="@+id/iv_menu"
+                android:layout_width="50dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:scaleType="centerInside"/>
+        </RelativeLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/common_bottom"
+            android:layout_below="@+id/common_title"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:transcriptMode="alwaysScroll"/>
+            </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="51dip"
+            android:layout_alignParentBottom="true"
+            android:background="#AAAAAA"
+            android:id="@+id/common_bottom">
+
+            <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="51dip"
+                android:layout_alignParentBottom="true">
+                <Button
+                    android:id="@+id/navigationBtn"
+                    android:layout_height="49dip"
+                    android:layout_width="fill_parent"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    />
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/navigation"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="导航"
+                        android:textSize="11dp"/>
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+
+            <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="51dip"
+                android:layout_alignParentBottom="true">
+                <Button
+                    android:id="@+id/finishStepBtn"
+                    android:layout_height="49dip"
+                    android:layout_width="fill_parent"
+                    android:layout_gravity="center"
+                    android:background="#EDEDED"
+                    />
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/finishstep"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="下一地点"
+                        android:textSize="11dp"/>
+
+                </LinearLayout>
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

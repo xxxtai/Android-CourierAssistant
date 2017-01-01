@@ -12,7 +12,7 @@
         <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="55dip"
-            android:background="#1874CD"
+            android:background="#6495ED"
             android:id="@+id/common_title">
             <TextView
                 android:id="@+id/tv_title"
@@ -26,20 +26,22 @@
                 android:textSize="22sp"
                 android:layout_centerInParent="true"/>
 
+
             <ImageView
                 android:id="@+id/iv_login"
-                android:layout_width="50dip"
-                android:layout_height="wrap_content"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="10dp"
                 android:layout_alignParentLeft="true"
                 android:layout_centerVertical="true"
                 android:scaleType="centerInside"
-                android:src= "@drawable/picture"
+                android:src= "@drawable/login"
                 />
-
             <ImageView
                 android:id="@+id/iv_menu"
-                android:layout_width="50dip"
-                android:layout_height="wrap_content"
+                android:layout_width="27dp"
+                android:layout_height="27dp"
+                android:layout_marginRight="10dp"
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:scaleType="centerInside"
@@ -57,23 +59,31 @@
             android:layout_above="@+id/common_bottom"/>
 
 
-        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="fill_parent"
             android:layout_height="51dip"
-            android:layout_alignParentBottom="true"
-            android:background="#AAAAAA"
-            android:id="@+id/common_bottom">
-            <Button
+            android:background="#DBDBDB"
+            android:id="@+id/common_bottom"
+            android:layout_alignParentBottom="true">
+            <ImageButton
                 android:id="@+id/startBtn"
-                android:layout_height="49dip"
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|top"
+                android:scaleType="centerInside"
+                android:background="#DBDBDB"
+                android:src="@drawable/image_view_pressed"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center_horizontal|bottom"
+                android:background="#DBDBDB"
                 android:text="开始配送"
-                android:textSize="22sp"
-                android:textColor="#FFFFFF"
-                android:background="#BFBFBF"
-                />
-
-        </LinearLayout>
+                android:textColor="#575757"
+                android:textSize="11dp"
+                style="@style/AppTheme" />
+        </RelativeLayout>
 
     </RelativeLayout>
 
