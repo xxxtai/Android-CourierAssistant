@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dip"
+    android:background="#1874CD"
+    android:id="@+id/common_title">
+
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:singleLine="true"
+        android:layout_toLeftOf="@+id/iv_menu"
+        android:layout_toRightOf="@+id/iv_login"
+        android:gravity="center"
+        android:text="优速达"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/iv_login"
+        android:layout_width="50dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src= "@drawable/picture"
+        />
+
+    <ImageView
+        android:id="@+id/iv_menu"
+        android:layout_width="50dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        android:src="@drawable/menu_icon"
+
+        />
+</RelativeLayout>

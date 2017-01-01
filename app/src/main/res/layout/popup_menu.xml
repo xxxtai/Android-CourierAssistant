@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:gravity="center_horizontal"
+
+android:orientation="vertical" >
+<LinearLayout
+    android:id="@+id/ly_item1"
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_default_button_selector">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="20dip"
+        android:textColor="#595d5f"
+        android:text="手动添加" />
+
+</LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dip"
+    android:background="#eeeeee" />
+<LinearLayout
+    android:id="@+id/ly_item2"
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_default_button_selector">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="20dip"
+        android:textColor="#595d5f"
+        android:text="扫一扫" />
+</LinearLayout>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dip"
+    android:background="#eeeeee" />
+<LinearLayout
+    android:id="@+id/ly_item3"
+    android:layout_width="match_parent"
+    android:layout_height="45dip"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_default_button_selector" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="20dip"
+        android:textColor="#595d5f"
+        android:text="系统导入" />
+</LinearLayout>
+
+</LinearLayout>
