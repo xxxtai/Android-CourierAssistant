@@ -97,11 +97,11 @@ S6、由交叉和变异产生新一代的种群，转S2;
 ## 3.3        界面设计
 
 ### 3.3.1 主页界面
-![](https://img.alicdn.com/tfs/TB1ROCGtKL2gK0jSZPhXXahvXXa-540-960.jpg)   ![](https://img.alicdn.com/tfs/TB1hPOLtND1gK0jSZFyXXciOVXa-540-960.jpg)
+![](https://img.alicdn.com/tfs/TB1ROCGtKL2gK0jSZPhXXahvXXa-540-960.jpg =300*500)   ![](https://img.alicdn.com/tfs/TB1hPOLtND1gK0jSZFyXXciOVXa-540-960.jpg =300*500)
 ### 3.3.2 手动添加界面
-![](https://img.alicdn.com/tfs/TB1YHuItUT1gK0jSZFhXXaAtVXa-540-960.jpg)   ![](https://img.alicdn.com/tfs/TB1KO9GtND1gK0jSZFsXXbldVXa-540-960.jpg)
+![](https://img.alicdn.com/tfs/TB1YHuItUT1gK0jSZFhXXaAtVXa-540-960.jpg =300*500)   ![](https://img.alicdn.com/tfs/TB1KO9GtND1gK0jSZFsXXbldVXa-540-960.jpg =300*500)
 ### 3.3.3 加载界面
-![](https://img.alicdn.com/tfs/TB1QPuHtQP2gK0jSZPxXXacQpXa-540-960.jpg)
+![](https://img.alicdn.com/tfs/TB1QPuHtQP2gK0jSZPxXXacQpXa-540-960.jpg =300*500)
 ### 3.3.4 开始派送界面
 ![](https://img.alicdn.com/tfs/TB1V0WHtNz1gK0jSZSgXXavwpXa-540-960.jpg)   ![](https://img.alicdn.com/tfs/TB1gsiItSf2gK0jSZFPXXXsopXa-540-960.jpg)
 ### 3.3.5 导航界面
