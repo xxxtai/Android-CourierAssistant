@@ -98,15 +98,18 @@ S6、由交叉和变异产生新一代的种群，转S2;
 
 ### 3.3.1 主页界面
 ![](https://img.alicdn.com/tfs/TB1ROCGtKL2gK0jSZPhXXahvXXa-540-960.jpg)
-
+![](https://img.alicdn.com/tfs/TB1hPOLtND1gK0jSZFyXXciOVXa-540-960.jpg)
 ### 3.3.2 手动添加界面
-
+![](https://img.alicdn.com/tfs/TB1YHuItUT1gK0jSZFhXXaAtVXa-540-960.jpg)
+![](https://img.alicdn.com/tfs/TB1KO9GtND1gK0jSZFsXXbldVXa-540-960.jpg)
 ### 3.3.3 加载界面
-
+![](https://img.alicdn.com/tfs/TB1QPuHtQP2gK0jSZPxXXacQpXa-540-960.jpg)
 ### 3.3.4 开始派送界面
-
+![](https://img.alicdn.com/tfs/TB1V0WHtNz1gK0jSZSgXXavwpXa-540-960.jpg)
+![](https://img.alicdn.com/tfs/TB1gsiItSf2gK0jSZFPXXXsopXa-540-960.jpg)
 ### 3.3.5 导航界面
-
+![](https://img.alicdn.com/tfs/TB1W61LtHj1gK0jSZFOXXc7GpXa-540-960.jpg)
+![](https://img.alicdn.com/tfs/TB1SXCJtQY2gK0jSZFgXXc5OFXa-540-960.jpg)
 # 四、作品实现、特色和难点
 
 ## 4.1        作品实现
@@ -182,3 +185,9 @@ S6、由交叉和变异产生新一代的种群，转S2;
 
  **难点3：**进行路径规划计算需要提供大量计算能力和硬件资源，手机客户端不能快速完成计算。
  **解决方案：**将路线规划计算部署到腾讯云服务器，可以快速完成计算，手机客户端通过socket跟服务器进行通信，将地点之间的距离信息传给服务器，服务器计算后返回给客户端，从而实现快速完成路线规划。
+ 
+ # 比赛剪影
+ 
+ ![](https://img.alicdn.com/tfs/TB177WHtNn1gK0jSZKPXXXvUXXa-1280-960.jpg)
+ ![](https://img.alicdn.com/tfs/TB1k_WFtFT7gK0jSZFpXXaTkpXa-1280-960.jpg)
+ ![](https://img.alicdn.com/tfs/TB1Cf9LtHY1gK0jSZTEXXXDQVXa-3264-2448.jpg)
