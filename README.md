@@ -97,6 +97,7 @@ S6、由交叉和变异产生新一代的种群，转S2;
 ## 3.3        界面设计
 
 ### 3.3.1 主页界面
+![](https://img.alicdn.com/tfs/TB1ROCGtKL2gK0jSZPhXXahvXXa-540-960.jpg)
 
 ### 3.3.2 手动添加界面
 
