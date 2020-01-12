@@ -188,6 +188,6 @@ S6、由交叉和变异产生新一代的种群，转S2;
  
  # 比赛剪影
  
- ![](https://img.alicdn.com/tfs/TB177WHtNn1gK0jSZKPXXXvUXXa-1280-960.jpg)
- ![](https://img.alicdn.com/tfs/TB1k_WFtFT7gK0jSZFpXXaTkpXa-1280-960.jpg)
- ![](https://img.alicdn.com/tfs/TB1Cf9LtHY1gK0jSZTEXXXDQVXa-3264-2448.jpg)
+ ![一等奖路演时刻](https://img.alicdn.com/tfs/TB177WHtNn1gK0jSZKPXXXvUXXa-1280-960.jpg)
+ ![华工小分队荣获两个一等奖、两个二等奖](https://img.alicdn.com/tfs/TB1k_WFtFT7gK0jSZFpXXaTkpXa-1280-960.jpg)
+ ![获奖证书](https://img.alicdn.com/tfs/TB1Cf9LtHY1gK0jSZTEXXXDQVXa-3264-2448.jpg)
