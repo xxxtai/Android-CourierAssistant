@@ -187,7 +187,9 @@ S6、由交叉和变异产生新一代的种群，转S2;
  **解决方案：**将路线规划计算部署到腾讯云服务器，可以快速完成计算，手机客户端通过socket跟服务器进行通信，将地点之间的距离信息传给服务器，服务器计算后返回给客户端，从而实现快速完成路线规划。
  
  # 比赛剪影
- 
+ ## 一等奖路演时刻
  ![一等奖路演时刻](https://img.alicdn.com/tfs/TB177WHtNn1gK0jSZKPXXXvUXXa-1280-960.jpg)
+ ## 华工小分队荣获两个一等奖、两个二等奖
  ![华工小分队荣获两个一等奖、两个二等奖](https://img.alicdn.com/tfs/TB1k_WFtFT7gK0jSZFpXXaTkpXa-1280-960.jpg)
+ ## 获奖证书
  ![获奖证书](https://img.alicdn.com/tfs/TB1Cf9LtHY1gK0jSZTEXXXDQVXa-3264-2448.jpg)
